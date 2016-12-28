@@ -1,0 +1,30 @@
+{
+  "name": "mixmax_500px_link_resolver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "500px": "^0.5.1",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.7.1",
+    "debug": "~2.2.0",
+    "dotenv": "^2.0.0",
+    "express": "~4.13.4",
+    "hbs": "~4.0.0",
+    "jsonfile": "^2.4.0",
+    "mongoose": "^4.5.10",
+    "morgan": "~1.7.0",
+    "passport": "^0.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1",
+    "serve-favicon": "~2.3.0",
+    "serve-static": "^1.11.1",
+    "synchronize": "^2.0.0",
+    "underscore": "^1.8.3"
+  }
+}
