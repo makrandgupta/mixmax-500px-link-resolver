@@ -38,11 +38,26 @@ exports.resolver = function(req, res) {
 			return;
 		}
 
-		var width = results.photo.width > 800 ? 800 : results.photo.width;
+		var width = results.photo.width > 600 ? 600 : results.photo.width;
 		var html = "<img style='max-width:100%;' src='" + results.photo.image_url + "' width='" + width + "'/>";
-		res.json({
-			body: html,
-			subject: title
+
+		var template_data = {
+			original_url: url,
+			image_url: results.photo.image_url,
+			title: title,
+			description: results.photo.description
+		}
+
+		res.app.render('template', template_data, function(err, html){
+			var response = {
+				body: html,
+				subject: title
+			};
+			res.json(response);
 		});
+		// res.json({
+		// 	body: html,
+		// 	subject: title
+		// });
 	});
 };
