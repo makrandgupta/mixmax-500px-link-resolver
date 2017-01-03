@@ -13,8 +13,8 @@ To use this resolver in directly in Mixmax:
   6. Magic
   
 To run this locally:
-1. Clone this repo
-2. Make sure you have the latest release of `node` and `npm`
-3. Install `nodemon` by running `npm install -g nodemon`
-4. Run `npm install` and then `nodemon`
-5. The resolver endpoint will now be accessible at: `http://localhost:3000/api/resolver`
+  1. Clone this repo
+  2. Make sure you have the latest release of `node` and `npm`
+  3. Install `nodemon` by running `npm install -g nodemon`
+  4. Run `npm install` and then `nodemon`
+  5. The resolver endpoint will now be accessible at: `http://localhost:3000/api/resolver`
