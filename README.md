@@ -1,6 +1,6 @@
 # 500px Link Resolver for Mixmax
 
-To use this resolver in directly in Mixmax:
+#### To use this resolver in directly in Mixmax:
   1. Open Mixmax Dashboard
   2. Go to Settings > Integrations & API
   3. Scroll all the way to the bottom
@@ -11,7 +11,7 @@ To use this resolver in directly in Mixmax:
     - Resolver API URL: `https://mixmax-500px-resolver.herokuapp.com/api/resolver`
   6. Magic
   
-To run this locally:
+#### To run this locally:
   1. Clone this repo
   2. Make sure you have the latest release of `node` and `npm`
   3. Install `nodemon` by running `npm install -g nodemon`
