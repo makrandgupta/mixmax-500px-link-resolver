@@ -6,10 +6,9 @@ To use this resolver in directly in Mixmax:
   3. Scroll all the way to the bottom
   4. Click on Add Link Resolver
   5. Fill out the fields as follows:
-  
-        - Description: `500px (500px.com/photo/*)`
-        - Regular Expression: `500px.com/photo/[^\/]+\/[^\/]+$`
-        - Resolver API URL: `https://mixmax-500px-resolver.herokuapp.com/api/resolver`
+    - Description: `500px (500px.com/photo/*)`
+    - Regular Expression: `500px.com/photo/[^\/]+\/[^\/]+$`
+    - Resolver API URL: `https://mixmax-500px-resolver.herokuapp.com/api/resolver`
   6. Magic
   
 To run this locally:
